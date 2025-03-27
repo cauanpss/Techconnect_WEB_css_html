@@ -1,0 +1,9 @@
+Desafio:Atividade 1: Estruturação HTML
+Criação de uma página HTML com:
+Cabeçalho com o nome do evento.
+Seção sobre o evento (data, local, resumo do tema).
+Seção com palestrantes (nomes, fotos e mini biografias).
+Seção com formulário de inscrição: Nome completo e E-mail (Atente a usar o input type correto)
+Escolha do tipo de ingresso (Presencial ou Online, usar input radio)
+Aceitação dos termos (input type="checkbox")
+Validação com HTML5: Campos obrigatórios (nome e e-mail); E-mail deve ter formato válido
