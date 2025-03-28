@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(imagens/h1.jpeg) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(assets/h1.jpeg) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,28 +76,67 @@ body{
 .flex-button{   
     position:relative;
     width: 200px;
-    padding:10px; 
+    height: 200px;
     color:white;
     font-size: 16px;
     text-align:center;
     border-radius: 0 10px 10px 0;
+    overflow: hidden;
+    display: flex;
 
     cursor: pointer;
     transition: backgound-color 0.8s ease;
         
     }
     
-.flex-button:hover{
+/* .flex-button:hover{
     transform: translateY(-5%);
-    background-color:#0056b3;
+    background-color: rgba(1, 13, 44, 0.466)
 }
-    
-.flex-button a{
+  */
+  
+.flex-button::after{
+    content: "";
+    display: flex;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
-    position: absolute;
-    color:white;
-    text-decoration: none;
-    display: block;
-        
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}   
+    
+.flex-button:hover::after{
+    content: attr(data-text);
+    align-items: center;
+    justify-content: center;
+
+
+
+    opacity: 1;
+}
+    
+.flex-button img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.image{
+    background-size: cover;
+    background-position: unset;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-tab{
+    display: flex;
+    width: 200px;
+    height: 150;
+    align-items: ;
 }
