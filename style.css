@@ -27,24 +27,24 @@ body{
 .flexbox{
     display:flex;
     height: 250px;
-    border: 3px solid red;
     margin-bottom: 16px;
+    border: 3px solid red;
     
 }
 
 .flexbox div{
-    border: 2px solid yellow;
-    width: 100%px;
+    width: 100%;
     margin: 15px;
+    flex-flow: nowrap;
+    border: 2px solid yellow;
 }
 
 
-.flex-container1{
-    /* flex-wrap: nowrap;
-    flex-direction: row;; */
+.flex-container1{    
     width: 100%;
     flex-flow: row wrap;
     justify-content: space-around;
+    border: solid blue;
     
 }
 
@@ -59,6 +59,7 @@ body{
     width: 200px;
     height: 200px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .flex-container3{
@@ -87,13 +88,8 @@ body{
     cursor: pointer;
     transition: backgound-color 0.8s ease;
         
-    }
-    
-/* .flex-button:hover{
-    transform: translateY(-5%);
-    background-color: rgba(1, 13, 44, 0.466)
 }
-  */
+    
   
 .flex-button::after{
     content: "";
@@ -134,9 +130,3 @@ body{
     height: 100%;
 }
 
-.flex-tab{
-    display: flex;
-    width: 200px;
-    height: 150;
-    align-items: ;
-}
