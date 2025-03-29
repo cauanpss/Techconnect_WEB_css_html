@@ -28,7 +28,7 @@ body{
     display:flex;
     height: 250px;
     margin-bottom: 16px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     
 }
 
@@ -36,7 +36,7 @@ body{
     width: 100%;
     margin: 15px;
     flex-flow: nowrap;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 
@@ -44,15 +44,15 @@ body{
     width: 100%;
     flex-flow: row wrap;
     justify-content: space-around;
-    border: solid blue;
+    /* border: solid blue; */
     
 }
 
-.flex-container2{
-    /* justify-content:space-around; */
+.flex-container2{    
     width: 100%;
     flex-flow: nowrap;  
     justify-content: space-around;  
+    /* border:2px solid pink */
 }
 
 .flex-container2 div {
@@ -60,7 +60,9 @@ body{
     height: 200px;
     justify-content: space-around;
     align-items: center;
+    /* border: 2px solid pink; */
 }
+
 
 .flex-container3{
     justify-content:center;

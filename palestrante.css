@@ -14,10 +14,12 @@ body{
     flex-direction: row;
     align-items: flex-start;
     padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     /* border: 2px solid blue */
 }
 
-.flex-tab-pic{
+.flex-tab-pic-palestrante_1{
     justify-content: flex-start;    
     width: 250px;
     height: 250px;
@@ -25,6 +27,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     flex-shrink: 1;
+    background-color: white;
+    
     /* border: 2px solid yellow; */
 }
 .flex-tab-pic-palestrante_2{
@@ -45,6 +49,7 @@ body{
     background-size: contain;
     background-position: center ;
     background-repeat: no-repeat;
+    background-color: white;
     flex-shrink: 1;
     /* border: 2px solid yellow; */
 }
@@ -57,7 +62,7 @@ body{
     background-position: center ;
     background-repeat: no-repeat;
     flex-shrink: 1;
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
 }
 
 
@@ -122,3 +127,17 @@ a {
     opacity: 1;
 }
 
+@media (max-width: 720px) {
+    .flex-tab {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .flex-button {
+        width: 100%;  
+        max-width: 200px;  
+        height: 50px;
+        font-size: 20px;
+        margin-top: 20px;  
+    }
+}
