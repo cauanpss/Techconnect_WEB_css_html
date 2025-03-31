@@ -119,6 +119,18 @@ input, .select {
     height: 200px;
 }
 
+.flex-tab{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid blue */
+}
+
+
 @media (max-width: 720px) {
     .flexbox {
         flex-direction: row;
