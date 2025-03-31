@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - TechFuture Summit</title>
+    <link rel="stylesheet" href="formulary_style.css">
+</head>
+<body class="body">
+
+    <h1 class="h1">Inscreva-se no TechFuture Summit 🚀</h1>
+
+    <form class="form" action="https://formsubmit.co/uuttaammaakkoo@gmail.com" method="POST">
+        <label class="label" for="name">Nome Completo:</label>
+        <input class="input" type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+        <label class="label" for="email">E-mail:</label>
+        <input class="input" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+        <label class="label">Tipo de Ingresso:</label>
+        <div class="radio-group">
+            <label for="presencial">Presencial</label>
+            <input class="input" type="radio" id="presencial" name="ingresso" value="presencial" required>
+
+            <label for="online">Online</label>
+            <input class="input" type="radio" id="online" name="ingresso" value="online" required>
+        </div>
+
+        <label class="label"></label>Aceito os termos e condições</label>
+        <input class="input" type="checkbox" id="termos" name="termos" required>
+
+        <div class="flex-button" data-text="Clique Aqui">
+            <div>Li e aceito os termos de uso</div>
+        </div>
+    </form>
+
+</body>
+</html>

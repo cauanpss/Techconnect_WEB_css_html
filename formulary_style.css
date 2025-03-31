@@ -1,0 +1,135 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px #7262fa;
+}
+
+.label {
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    margin: 10px 0 ;
+    text-align: left;
+    ;
+}
+
+input, .select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.input[type="radio"], .input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.flex-button {   
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    position:relative;
+    color:white;
+    background-color: rgb(111, 104, 209);
+    border: 2px solid rgb(133, 133, 209);
+    border-radius: 15px;
+    box-shadow: 0 0 5px #7262fa , 
+    0 0 5px #7262fa , 
+    0 0 0px #7262fa ;
+    ;
+}
+
+  
+.flex-button::after{
+    content: "";
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    
+}   
+    
+.flex-button:hover::after{
+    content: attr(data-text);
+    align-items: center;
+    justify-content: center;
+
+    opacity: 1;
+}
+    
+.flex-button img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.image{
+    background-size: cover;
+    background-position: unset;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-container2 .flex-button {
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 720px) {
+    .flexbox {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .flex-container2 > a > div {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+
+}
