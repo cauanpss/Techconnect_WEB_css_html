@@ -1,3 +1,36 @@
+(en)
+(pt-BR)
+Contextualization:
+"TechConnect", a technology startup, wants to launch a landing page to promote its next event: the "TechFuture Summit", a meeting of
+developers and designers to discuss trends in technology and design. The goal of the page is to attract participants and provide clear and visually appealing information about the event, such as date, location, speakers and registration.
+Students, divided into teams, will act as web developers responsible for creating this landing page. The focus is on applying HTML and CSS concepts, considering UI and UX, good programming practices and data validation in forms.
+Challenge:Activity 1: HTML Structuring
+Creation of an HTML page with:
+Header with the name of the event.
+Section about the event (date, location, summary of the theme).
+Section with speakers (names, photos and mini biographies).
+Section with registration form: Full name and email (Be sure to use the correct input type)
+Choose the type of ticket (In-person or Online, use input radio)
+Acceptance of terms (input type="checkbox")
+Validation with HTML5: Mandatory fields (name and email); Email must have a valid format.
+Activity 2: Styling with CSS
+Apply basic styles to:
+Define a color palette (using tools like Coolors).
+Create well-defined sections with adequate spacing.
+Style buttons and inputs for a better user experience.
+Add responsiveness:
+Test the layout on different screen sizes.
+Use media queries to adjust styles.
+Activity 3: UI/UX Principles
+Teach good practices:
+Adequate contrast between text and background.
+Visual hierarchy to facilitate reading.
+Visual feedback when interacting with buttons and inputs.
+Review based on questions:
+Is the text clear and easy to read?
+Is the form easy to fill out?
+
+(pt-BR)
 Contextualização:
 A "TechConnect", uma startup de tecnologia, deseja lançar uma landing page para promover seu próximo evento: o "TechFuture Summit", um encontro de
 desenvolvedores e designers para discutir tendências em tecnologia e design. O objetivo da página é atrair participantes e fornecer informações claras e
