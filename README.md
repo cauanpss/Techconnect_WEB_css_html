@@ -2,9 +2,9 @@
 Atividade do curso de Ciencia da computação na Universidade Jorge Amado/ Salvador-BA  
 Contextualização:  
 A "TechConnect", uma startup de tecnologia, deseja lançar uma landing page para promover seu próximo evento: o "TechFuture Summit", um encontro de
-desenvolvedores e designers para discutir tendências em tecnologia e design. O objetivo da página é atrair participantes e fornecer informações claras e  
+desenvolvedores e designers para discutir tendências em tecnologia e design. O objetivo da página é atrair participantes e fornecer informações claras
 visualmente atraentes sobre o evento, como data, local, palestrantes e inscrições.  
-Os alunos, divididos em equipes, atuarão como desenvolvedores web responsáveis pela criação dessa landing page. O foco está em aplicar conceitos de HTML e  
+Os alunos, divididos em equipes, atuarão como desenvolvedores web responsáveis pela criação dessa landing page. O foco está em aplicar conceitos de HTML e
 CSS, considerando UI e UX, boas práticas de programação e a validação de dados nos formulários.  
 Desafio:  
 Atividade 1: Estruturação HTML  
